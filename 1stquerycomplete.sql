@@ -13,13 +13,6 @@ set
 #people_vaccinated= if(people_vaccinated='', null, people_vaccinated),
 #people_fully_vaccinated= if(people_fully_vaccinated='', null, people_fully_vaccinated),
 new_vaccinations= if(new_vaccinations='', null, new_vaccinations);
-#new_vaccinations_smoothed= if(new_vaccinations_smoothed='', null, new_vaccinations_smoothed),
-#new_vaccinations= if(new_vaccinations='', null, new_vaccinations),
-#new_vaccinations= if(new_vaccinations='', null, new_vaccinations),
-#new_vaccinations= if(new_vaccinations='', null, new_vaccinations),
-
-
-
 
 
 select location,date,total_cases,new_cases,total_deaths,population
